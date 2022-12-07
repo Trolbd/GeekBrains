@@ -3,7 +3,7 @@
 // 5 -> 1, 8, 27, 64, 125
 
 Console.WriteLine("Введите число: ");
-int Number = int.Parse(Console.ReadLine());
+int Number = int.Parse(Console.ReadLine()!);
 
 int index = 1;
 

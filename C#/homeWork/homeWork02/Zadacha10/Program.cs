@@ -21,5 +21,14 @@ else
 	Console.WriteLine(stroka[2]);
 }
 
+
+
+
+
+//ДЛЯ СЕБЯ
+//number = int.Parse(stroka);
+// int number1 = Convert.ToInt32(stroka);
+// Console.WriteLine("число: ", number1);
+
 // int answer = number % 100 / 10;
 // Console.WriteLine($"Вторая цифра в числе: {answer}"); или Console.WriteLine("Вторая цифра в числе:" + answer);
