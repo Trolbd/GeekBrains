@@ -10,15 +10,7 @@ for (int i = 1; i <= number; i++)
 proizv = proizv * i;
 Console.WriteLine(proizv);
 }
+Console.WriteLine("конец");
 
 
 
-
-
-
-
-// else
-// {
-// 	number % 2 == 0;
-// 	Console.WriteLine("-");
-// }
