@@ -9,7 +9,7 @@ int[] array = GetArray(ReadInt(), ReadInt(), ReadInt());// в скобках (д
 System.Console.WriteLine(GetArrayAsString(array));
 
 
-System.Console.WriteLine($"Сумма нечётных чисел: {GetSuumChet(array)}");
+System.Console.WriteLine($"Сумма чисел на нечётных позициях: {GetSuumChet(array)}");
 
 
 int[] GetArray(int length, int minValye, int maxValye) // в скобках (длина, мин элемент массива, макс элемент массива)
@@ -54,7 +54,7 @@ int GetSuumChet(int[] array)//сумма положит элементов ма�
 
 	for (int i = 0; i < array.Length; i++)
 	{
-		if ((array[i] %2 ) > 0)//если остаток деления на 2 iго элемента массива > 0
+		if ((i %2 ) > 0)//если остаток деления на 2 самого индекса > 0
 			summ += array[i];
 	}
 	return summ; //к 1
