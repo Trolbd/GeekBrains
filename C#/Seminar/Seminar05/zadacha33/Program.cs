@@ -28,9 +28,9 @@ int[] GetArray(int length, int minValye, int maxValye) // в скобках (д�
 
 int ReadInt()
 {
-	string s = Console.ReadLine(); // прочитали число с консоли
+	string s = Console.ReadLine()!; // прочитали число с консоли
 
-	if (int.TryParse(s, out int i));
+	if (int.TryParse(s, out int i))
 		return i;
 
 	return -1;
