@@ -13,7 +13,7 @@ int[,] inputTwoDimmansionArray(int length1, int length2)
 int ReadInt()
 {
 	System.Console.WriteLine("Ввод");
-	int a = int.Parse(Console.ReadLine());
+	int a = int.Parse(Console.ReadLine()!);
 	return a;
 }
 
