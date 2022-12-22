@@ -51,18 +51,18 @@ void PrintArray(int[,] array)
 	}
 }
 
-void MultiplyMatrix(int[,] matrix1, int[,] matrix2, int[,] resultMatrix)
-{
-	for (int i = 0; i < resultMatrix.GetLength(0); i++)
-	{
-		for (int j = 0; j < resultMatrix.GetLength(1); j++)
-		{
-			int sum = 0;
-			for (int k = 0; k < matrix1.GetLength(1); k++)
-				{
-					sum += ((matrix1[i,k] * matrix2[k,j]) + (matrix1[i+1,k+1] * matrix2[k+1,j+1]));
-				}
-		resultMatrix[i,j] = sum;
-		}
-	}
-}
+// void MultiplyMatrix(int[,] matrix1, int[,] matrix2, int[,] resultMatrix)
+// {
+// 	for (int i = 0; i < resultMatrix.GetLength(0); i++)
+// 	{
+// 		for (int j = 0; j < resultMatrix.GetLength(1); j++)
+// 		{
+// 			int sum = 0;
+// 			for (int k = 0; k < matrix1.GetLength(1); k++)
+// 				{
+// 					sum += ((matrix1[i,k] * matrix2[k,j]) + (matrix1[i+1,k+1] * matrix2[k+1,j+1]));
+// 				}
+// 		resultMatrix[i,j] = sum;
+// 		}
+// 	}
+// }
